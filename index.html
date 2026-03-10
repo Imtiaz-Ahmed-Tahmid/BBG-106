@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autism Therapy & Sensory Integration Centre in Gulshan Dhaka | Beyond Barriers Gulshan</title>
+
+<meta name="description" content="Beyond Barriers Gulshan is a professional autism and neurodevelopmental intervention centre in Dhaka offering sensory integration therapy, speech therapy, and developmental assessment for children.">
+
+<meta name="keywords" content="autism therapy Dhaka, sensory integration therapy Bangladesh, speech therapy Gulshan, autism intervention centre Dhaka, ADHD therapy Bangladesh">
+
+<meta name="author" content="Beyond Barriers Gulshan">
+<style>
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8fbff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(232, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    z-index: 1000;
+}
+
+/* Logo */
+.logo img {
+    height: 50px;
+}
+
+/* Nav Links */
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #267acc;
+}
+
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+}
+
+/* MOBILE NAVBAR */
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px 20px;
+    }
+
+/* hamburger */
+.menu-toggle{
+display:block;
+font-size:28px;
+cursor:pointer;
+}
+
+/* menu */
+.nav-links{
+position:absolute;
+top:70px;
+right:0;
+background:rgb(241, 240, 240);
+width:220px;
+flex-direction:column;
+padding:20px;
+display:none;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+border-radius:10px;
+}
+
+.nav-links a{
+padding:10px 0;
+}
+
+}
+
+/* HERO SECTION */
+header {
+    height: 120vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('images/header-bg.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(240, 237, 240);
+    padding: 20px;
+}
+
+.header-text h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.header-text p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    padding: 14px 32px;
+    background: #4da6ff;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #267acc;
+    transform: translateY(-4px);
+}
+
+/* SECTIONS */
+section {
+    padding: 100px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: left;
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: #6709d3;
+}
+
+/* SERVICES GRID */
+/* SERVICE IMAGE */
+
+/* SERVICE CARD MODERN DESIGN */
+.services{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:30px;
+}
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.4s;
+}
+
+/* IMAGE */
+
+.service-img{
+    overflow:hidden;
+}
+
+.service-img img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+/* IMAGE HOVER ZOOM */
+
+.card:hover .service-img img{
+    transform:scale(1.08);
+}
+
+/* CONTENT */
+
+.service-content{
+    padding:20px;
+    
+}
+
+.service-content h3{
+    font-size:20px;
+    margin-bottom:10px;
+    color: #6709d3;
+}
+
+.service-content p{
+    font-size:18px;
+    margin-bottom:10px;
+    color: #6709d7;
+    
+}
+
+.service-content ul{
+    list-style:none;
+    padding:0;
+    color: #d30647;
+}
+
+.service-content ul li{
+    font-size:16px;
+    margin-bottom:6px;
+}
+
+/* testimonials */
+.testimonials{
+    padding:70px 20px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.testimonials h2{
+    font-size:32px;
+    margin-bottom:40px;
+    color:#1b3c74;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.testimonial-card{
+    max-width:420px;
+    background:#f9fbff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+    text-align:left;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+.stars{
+    color:#f4b400;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.testimonial-card p{
+    font-size:15px;
+    color:#555;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.parent-info{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.parent-info img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.parent-info h4{
+    margin:0;
+    color:#2a4fa3;
+}
+
+.parent-info span{
+    font-size:13px;
+    color:#777;
+}
+
+.card, .testimonial-card, .why-grid div {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.6s ease;
+}
+
+/* why chose beyond barrier */
+.why-us{
+    background:linear-gradient(rgba(76, 73, 73, 0.9),rgba(76, 71, 71, 0.9)),
+url("images/sensory.jpg");
+background-size:cover;
+
+}
+
+.why-us h2{
+    font-size:32px;
+    margin-bottom:40px;
+    color:#6709d3;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.why-card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.icon{
+    font-size:40px;
+    display:block;
+    margin-bottom:15px;
+}
+
+.why-card h3{
+    color:#6709d3;
+    margin-bottom:10px;
+}
+
+.why-card p{
+    font-size:14px;
+    color:#d30647;
+}
+
+/* ABOUT SECTION */
+/* ABOUT SECTION MODERN LAYOUT */
+/* ABOUT SECTION MODERN LAYOUT */
+/* ABOUT SECTION */
+.about-section {
+    background: rgb(232, 227, 227);
+    padding: 120px 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/* TEXT (LEFT) */
+.about-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* TITLE ON RIGHT */
+.about-content h2 {
+     text-align: left;
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: #6709d3;
+}
+
+/* DESCRIPTION LEFT */
+.about-intro {
+    font-size: 19px;
+    color: #6709d3;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* BULLETS */
+.about-points {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    color: #be0bf5;
+}
+
+.about-points li {
+    margin-bottom: 12px;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* BUTTON */
+.about-btn {
+    padding: 14px 32px;
+    background: #4da6ff;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.about-btn:hover {
+    background: #267acc;
+}
+
+/* IMAGE RIGHT */
+.about-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+    .about-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .about-content h2 {
+        text-align: center;
+    }
+
+    .about-intro, .about-points li {
+        text-align: center;
+    }
+
+    .about-btn {
+        display: block;
+        margin: auto;
+    }
+
+    .about-image img {
+        max-width: 350px;
+        margin: auto;
+    }
+}
+
+/* PROGRAMS */
+.programs{
+    padding:70px 20px;
+    background:#f5f9ff;
+    text-align:center;
+}
+
+.programs h2{
+    font-size:32px;
+    margin-bottom:40px;
+    color:#1b3c74;
+}
+
+.program-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.program-card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+}
+
+.program-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.15);
+}
+
+.program-icon{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.program-card h3{
+    color:#2a4fa3;
+    margin-bottom:5px;
+}
+
+.age{
+    display:block;
+    font-size:14px;
+    color:#777;
+    margin-bottom:10px;
+}
+
+.program-card p{
+    font-size:14px;
+    color:#555;
+    line-height:1.6;
+}
+
+/* CONTACT SECTION */
+.contact-section{
+padding:70px 20px;
+background:#f7faff;
+text-align:center;
+}
+
+.contact-section h2{
+font-size:32px;
+color:#1b3c74;
+margin-bottom:10px;
+}
+
+.contact-subtitle{
+color:#555;
+max-width:600px;
+margin:auto;
+margin-bottom:40px;
+}
+
+.contact-container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+max-width:1100px;
+margin:auto;
+align-items:center;
+}
+
+.contact-info{
+text-align:left;
+}
+
+.info-card{
+display:flex;
+align-items:center;
+gap:15px;
+background:white;
+padding:18px;
+border-radius:10px;
+margin-bottom:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.07);
+transition:0.3s;
+}
+
+.info-card:hover{
+transform:translateY(-4px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.icon{
+font-size:22px;
+}
+
+.contact-buttons{
+margin-top:20px;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.whatsapp-btn{
+background:#25D366;
+color:white;
+padding:12px 18px;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+}
+
+.call-btn{
+background:#2a4fa3;
+color:white;
+padding:12px 18px;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+}
+
+.whatsapp-btn:hover,
+.call-btn:hover{
+opacity:0.9;
+}
+
+.map-container iframe{
+width:100%;
+height:350px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Mobile */
+@media(max-width:768px){
+.contact-container{
+grid-template-columns:1fr;
+}
+}
+
+
+/* FOOTER */
+footer{
+background:#6709d3;
+color:white;
+padding:50px 20px 20px;
+}
+
+.footer-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:40px;
+max-width:2000px;
+margin:auto;
+}
+
+.footer-col h3{
+margin-bottom:15px;
+}
+
+.footer-col p{
+font-size:14px;
+margin-bottom:10px;
+}
+
+.footer-logo{
+width:200px;
+margin-bottom:15px;
+}
+
+.footer-col ul{
+list-style:none;
+padding:0;
+}
+
+.footer-col ul li{
+margin-bottom:8px;
+}
+
+.footer-col ul li a{
+color:white;
+text-decoration:none;
+transition:0.3s;
+}
+
+.footer-col ul li a:hover{
+text-decoration:underline;
+}
+
+.social-icons{
+margin-top:10px;
+}
+
+.social-icons a{
+display:inline-block;
+margin-right:10px;
+color:white;
+text-decoration:none;
+font-size:14px;
+}
+
+.footer-bottom{
+text-align:center;
+margin-top:30px;
+border-top:1px solid rgba(255,255,255,0.3);
+padding-top:15px;
+font-size:14px;
+}
+
+/* SPACING FIX FOR FIXED NAV */
+body::before {
+    content: "";
+    display: block;
+    height: 70px;
+}
+
+/* ========================= */
+/* MOBILE RESPONSIVE DESIGN  */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    nav {
+        
+        padding: 15px 20px;
+        
+    }
+
+    .nav-links {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    /* HERO SECTION */
+    header {
+        height: 90vh;
+        padding: 20px;
+    }
+
+    .header-text h1 {
+        font-size: 32px;
+    }
+
+    .header-text p {
+        font-size: 16px;
+    }
+
+    .hero-btn {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    /* ABOUT SECTION */
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    /* SERVICES */
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    /* WHY GRID */
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* CONTACT */
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    /* MAP */
+    .map-container iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+    <img src="images/logo.jpg" alt="Beyond Barriers Logo">
+</div>
+
+<div class="menu-toggle" onclick="toggleMenu()">
+☰
+</div>
+
+<div class="nav-links" id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#programs">Programs</a>
+    <a href="#contact">Contact</a>
+</div>
+
+</nav>
+
+<header id="home">
+    <div class="header-text">
+        <h1>Beyond Barriers Gulshan</h1>
+        <p>Professional intervention centre supporting autism and neurodiverse children with evidence-based therapy.</p>
+        <a href="#contact" class="hero-btn">Book Appointment</a>
+    </div>
+</header>
+
+<section id="about" class="about-section">
+    <div class="about-container">
+        <!-- Left Content -->
+        <div class="about-content">
+            <h2>About Beyond Barriers Gulshan</h2>
+            <p class="about-intro">
+                We are a specialized intervention centre dedicated to supporting 
+                children with autism and neurodevelopmental differences through 
+                evidence-based, compassionate care.
+            </p>
+
+            <ul class="about-points">
+                <li>✔ Individualized therapy plans</li>
+                <li>✔ Sensory integration & motor development</li>
+                <li>✔ Family-centered intervention approach</li>
+                <li>✔ Structured communication programs</li>
+            </ul>
+
+            <a href="#contact" class="about-btn">Schedule Consultation</a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="about-image">
+            <img src="images/Autism Children.png" alt="Therapy Session">
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Our Specialized Services</h2>
+
+    <div class="services">
+
+        <!-- Card 1 -->
+       <div class="card">
+
+    <div class="service-img">
+        <img src="images/Autism Assessment.png" alt="Developmental Assessment">
+    </div>
+
+    <div class="service-content">
+        <h3>Developmental Assessment</h3>
+
+        <p>
+        Comprehensive evaluation of sensory, motor, cognitive, and communication skills.
+        </p>
+
+        <ul>
+            <li>✔ Standardized assessment tools</li>
+            <li>✔ Parent consultation</li>
+            <li>✔ Individual therapy planning</li>
+        </ul>
+
+        <a href="#contact" class="card-btn">Book Assessment</a>
+    </div>
+
+</div>
+
+        <!-- Card 2 -->
+       <div class="card">
+
+    <div class="service-img">
+        <img src="images/intervention.jpg" alt="Autism Intervention">
+    </div>
+<div class="service-content">
+
+    <h3>Autism Intervention</h3>
+
+    <p>Structured therapy programs designed to improve communication and independence.</p>
+
+    <ul>
+        <li>✔ Social skills training</li>
+        <li>✔ Behavior support</li>
+        <li>✔ Play-based learning</li>
+    </ul>
+
+    <a href="#contact" class="card-btn">Learn More</a>
+</div>
+</div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="service-img">
+                <img src="images/sensory.jpg" alt="Sensory Integration Therapy">
+            </div>
+
+            <div class="service-content">
+            <h3>Sensory Integration Therapy</h3>
+            <p>Therapeutic activities targeting vestibular, proprioceptive, and tactile systems.</p>
+            <ul>
+                <li>✔ Sensory regulation</li>
+                <li>✔ Motor coordination</li>
+                <li>✔ Self-regulation skills</li>
+            </ul>
+            <a href="#contact" class="card-btn">Explore</a>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+            <div class="service-img">
+                <img src="images/speech&communication.jpg" alt="Speech & Communication Therapy">
+            </div>
+            <div class="service-content">
+            <h3>Speech & Communication Therapy</h3>
+            <p>Enhancing expressive and receptive language development.</p>
+            <ul>
+                <li>✔ Articulation therapy</li>
+                <li>✔ Language development</li>
+                <li>✔ Social communication</li>
+            </ul>
+            <a href="#contact" class="card-btn">Consult Now</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="why-us">
+    <h2>Why Choose Beyond Barriers?</h2>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+            <span class="icon">🧠</span>
+            <h3>Evidence-Based Therapy</h3>
+            <p>All interventions follow internationally accepted therapy methods.</p>
+        </div>
+
+        <div class="why-card">
+            <span class="icon">👩‍⚕️</span>
+            <h3>Experienced Professionals</h3>
+            <p>Our therapists are trained in autism, sensory integration and speech therapy.</p>
+        </div>
+
+        <div class="why-card">
+            <span class="icon">👨‍👩‍👧</span>
+            <h3>Family-Centered Care</h3>
+            <p>Parents are actively involved in therapy and home programs.</p>
+        </div>
+
+        <div class="why-card">
+            <span class="icon">📋</span>
+            <h3>Individualized Plans</h3>
+            <p>Every child receives a personalized intervention program.</p>
+        </div>
+
+        <div class="why-card">
+            <span class="icon">🧩</span>
+            <h3>Sensory Friendly Environment</h3>
+            <p>Safe therapy rooms designed for children with sensory needs.</p>
+        </div>
+
+        <div class="why-card">
+            <span class="icon">📈</span>
+            <h3>Progress Tracking</h3>
+            <p>Regular assessments help monitor improvement and goals.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="testimonials">
+    <h2>What Parents Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"My child’s communication improved dramatically within 3 months. The therapists are caring and professional."</p>
+
+            <div class="parent-info">
+                <img src="parent1.jpg" alt="Parent">
+                <div>
+                    <h4>Parent of 5-year-old</h4>
+                    <span>Speech Therapy Program</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"A wonderful and structured environment. We feel supported as a family and see clear progress."</p>
+
+            <div class="parent-info">
+                <img src="parent2.jpg" alt="Parent">
+                <div>
+                    <h4>Parent of 7-year-old</h4>
+                    <span>Sensory Integration Therapy</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="programs" class="programs">
+    <h2>Our Therapy Programs</h2>
+
+    <div class="program-grid">
+
+        <div class="program-card">
+            <div class="program-icon">🧸</div>
+            <h3>Early Intervention</h3>
+            <span class="age">Age: 2–5 years</span>
+            <p>Focused therapy for early developmental delays including communication, sensory processing and play skills.</p>
+        </div>
+
+        <div class="program-card">
+            <div class="program-icon">🎒</div>
+            <h3>School Readiness</h3>
+            <span class="age">Age: 5–8 years</span>
+            <p>Helping children develop attention, classroom behavior, communication and independence for school success.</p>
+        </div>
+
+        <div class="program-card">
+            <div class="program-icon">👫</div>
+            <h3>Social Skills Group</h3>
+            <span class="age">Group Program</span>
+            <p>Structured group sessions that help children practice interaction, emotional understanding and peer communication.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+
+<h2>Contact Us</h2>
+<p class="contact-subtitle">
+We’re here to support your child’s developmental journey. Reach out to schedule an appointment.
+</p>
+
+<div class="contact-container">
+
+<!-- Contact Information -->
+<div class="contact-info">
+
+<div class="info-card">
+<span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+<div>
+<h4>Location</h4>
+<p>Gulshan 2, Dhaka, Bangladesh</p>
+</div>
+</div>
+
+<div class="info-card">
+<span class="icon"><i class="fa-solid fa-phone"></i></span>
+<div>
+<h4>Phone</h4>
+<p>+880-XXXXXXXX</p>
+</div>
+</div>
+
+<div class="info-card">
+<span class="icon"><i class="fa-solid fa-envelope"></i></span>
+<div>
+<h4>Email</h4>
+<p>info@beyondbarriers.com</p>
+</div>
+</div>
+
+<div class="contact-buttons">
+<a href="https://wa.me/880XXXXXXXXXX" class="whatsapp-btn" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<a href="tel:+880XXXXXXXX" class="call-btn">
+📞 Call Now
+</a>
+</div>
+
+</div>
+
+<!-- Map -->
+<div class="map-container">
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.6858862802674!2d90.41340407215853!3d23.794197378640483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a694a35323%3A0x9ed144fbbd2fc809!2s4%20Rd%2095%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1772460209949!5m2!1sen!2sbd"
+loading="lazy"
+allowfullscreen>
+</iframe>
+</div>
+
+</div>
+
+</section>
+
+<!-- footer -->
+
+<footer>
+
+<div class="footer-container">
+
+<!-- COLUMN 1 : LOGO -->
+<div class="footer-col">
+<img src="images/logo.jpg" alt="Beyond Barriers Logo" class="footer-logo">
+<p>
+Beyond Barriers Gulshan is a specialized centre providing autism therapy,
+sensory integration, and communication intervention for children.
+</p>
+</div>
+
+<!-- COLUMN 2 : QUICK LINKS -->
+<div class="footer-col">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About Us</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#programs">Programs</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+
+<!-- COLUMN 3 : CONTACT -->
+<div class="footer-col">
+<h3>Contact</h3>
+<p><i class="fa-solid fa-location-dot"></i> Gulshan 2, Dhaka</p>
+<p><i class="fa-solid fa-phone"></i> +880-XXXXXXXX</p>
+<p><i class="fa-solid fa-envelope"></i> info@beyondbarriers.com</p>
+
+<div class="social-icons">
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">YouTube</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 Beyond Barriers Gulshan | All Rights Reserved</p>
+</div>
+
+</footer>
+
+<!-- script -->
+
+<script>
+const cards = document.querySelectorAll(".card, .testimonial-card, .why-grid div");
+
+window.addEventListener("scroll", () => {
+    cards.forEach(card => {
+        const position = card.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.2;
+
+        if(position < screenPosition) {
+            card.style.opacity = "1";
+            card.style.transform = "translateY(0)";
+        }
+    });
+});
+
+function toggleMenu(){
+
+const menu = document.getElementById("navLinks");
+
+if(menu.style.display === "flex"){
+menu.style.display = "none";
+}
+else{
+menu.style.display = "flex";
+}
+
+}
+
+/* CLOSE MENU AFTER CLICK */
+
+const navItems = document.querySelectorAll("#navLinks a");
+
+navItems.forEach(link => {
+link.addEventListener("click", () => {
+document.getElementById("navLinks").style.display = "none";
+});
+});
+
+</script>
+
+</body>
+</html>
